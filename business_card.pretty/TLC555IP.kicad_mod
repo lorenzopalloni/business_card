@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "57682ba5-1946-49dc-9e48-6f804baa9f91")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "TLC555IP"
-		(at 0 1 0)
+		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f7e27bdb-2d3b-4645-ba9c-8deaa6a22f17")
@@ -212,7 +212,7 @@
 		(remove_unused_layers no)
 		(uuid "a3aa4f91-23f9-40bf-aa01-95e550cc3fea")
 	)
-	(model "${KIPRJMOD}/TLC555IP.STEP"
+	(model "${KIPRJMOD}/3D-models/TLC555IP.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
