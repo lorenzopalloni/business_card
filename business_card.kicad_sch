@@ -730,139 +730,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_BJT:2N3904"
 			(pin_names
 				(offset 0) hide)
@@ -1044,6 +911,128 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "business_card:DS01-254-S-01BE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DS01-254-S-01BE"
+				(at 0.254 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "business_card:DS01254S01BE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.it/datasheet/2/670/ds01_254-1777712.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DS01-254-S-01BE_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DS01-254-S-01BE_1_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_out line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1553,7 +1542,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 111.76) (xy 92.71 114.3)
+			(xy 100.33 111.76) (xy 100.33 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1603,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 102.87) (xy 107.95 106.68)
+			(xy 109.22 102.87) (xy 109.22 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1623,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 121.92) (xy 92.71 124.46)
+			(xy 100.33 121.92) (xy 100.33 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1733,7 +1722,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 102.87) (xy 135.89 102.87)
+			(xy 109.22 102.87) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1773,7 +1762,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 100.33) (xy 92.71 101.6)
+			(xy 100.33 100.33) (xy 100.33 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1830,16 +1819,6 @@
 			(type default)
 		)
 		(uuid "c369d0b1-4693-4f9d-b260-69b725e567f0")
-	)
-	(wire
-		(pts
-			(xy 107.95 121.92) (xy 109.22 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7be26fc-6f49-4bfd-a0df-b0a455fed46e")
 	)
 	(wire
 		(pts
@@ -1943,7 +1922,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 114.3) (xy 107.95 121.92)
+			(xy 109.22 115.57) (xy 109.22 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2218,7 +2197,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 92.71 100.33 0)
+		(at 100.33 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2226,7 +2205,7 @@
 		(dnp no)
 		(uuid "41df2499-15ef-45a9-be9e-ce7cc8329bea")
 		(property "Reference" "#PWR08"
-			(at 92.71 104.14 0)
+			(at 100.33 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2214,7 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 92.71 96.52 0)
+			(at 100.33 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 100.33 0)
+			(at 100.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2252,7 +2231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 100.33 0)
+			(at 100.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2261,7 +2240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 92.71 100.33 0)
+			(at 100.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2284,7 +2263,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 92.71 124.46 0)
+		(at 100.33 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2293,7 +2272,7 @@
 		(fields_autoplaced yes)
 		(uuid "443dce97-3069-49fb-8d1c-1ed69ef68224")
 		(property "Reference" "#PWR09"
-			(at 92.71 130.81 0)
+			(at 100.33 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,7 +2281,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 129.54 0)
+			(at 100.33 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 124.46 0)
+			(at 100.33 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 124.46 0)
+			(at 100.33 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 124.46 0)
+			(at 100.33 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3044,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 107.95 110.49 0)
+		(at 109.22 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3074,7 +3053,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc203b95-1f4a-4cae-9715-ce6fc04e001b")
 		(property "Reference" "R3"
-			(at 110.49 109.2199 0)
+			(at 111.76 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +3062,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 110.49 111.7599 0)
+			(at 111.76 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +3071,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 106.172 110.49 90)
+			(at 107.442 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3080,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 110.49 0)
+			(at 109.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3089,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 110.49 0)
+			(at 109.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +3114,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 92.71 119.38 0)
+		(at 100.33 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3143,7 +3122,7 @@
 		(dnp no)
 		(uuid "c0f5bfdd-780e-4672-b47e-649089a7aa3a")
 		(property "Reference" "BT1"
-			(at 85.09 116.84 0)
+			(at 92.71 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3131,7 @@
 			)
 		)
 		(property "Value" "BAT-HLD-001-THM"
-			(at 69.85 119.38 0)
+			(at 77.47 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3140,7 @@
 			)
 		)
 		(property "Footprint" "business_card:BAT-HLD-001-THM"
-			(at 92.71 117.856 90)
+			(at 100.33 117.856 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3149,7 @@
 			)
 		)
 		(property "Datasheet" "~https://www.mouser.it/datasheet/2/418/9/ENG_CD_C_BAT_HLD_001_THM_pp_A-3247749.pdf"
-			(at 92.71 117.856 90)
+			(at 100.33 117.856 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3158,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 92.71 119.38 0)
+			(at 100.33 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,75 +3384,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 92.71 106.68 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2467ce7-a186-44c5-a965-1a57ec8ea66a")
-		(property "Reference" "SW1"
-			(at 86.36 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 81.28 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 92.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb4dbaeb-912d-4d45-a5bf-2848fc512679")
-		)
-		(pin "2"
-			(uuid "daef7ea8-9a10-4101-9182-db3962537fcf")
-		)
-		(instances
-			(project "business_card"
-				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 143.51 132.08 90)
 		(unit 1)
@@ -3538,6 +3448,75 @@
 			(project "business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "business_card:DS01-254-S-01BE")
+		(at 100.33 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efc097d2-cfdf-4f9d-a90a-bff4a9940e85")
+		(property "Reference" "SW1"
+			(at 93.98 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DS01-254-S-01BE"
+			(at 78.74 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "business_card:DS01254S01BE"
+			(at 100.33 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/670/ds01_254-1777712.pdf"
+			(at 100.33 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f15150c-c513-4205-9bdd-deb11ab0f6ba")
+		)
+		(pin "1"
+			(uuid "af55e67a-0a8e-4dd6-a2cc-7071bdc82000")
+		)
+		(instances
+			(project "business_card"
+				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
