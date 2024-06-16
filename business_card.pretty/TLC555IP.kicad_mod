@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -6 0)
+		(at -6.75 3 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "57682ba5-1946-49dc-9e48-6f804baa9f91")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "TLC555IP"
-		(at 0 6 0)
+		(at 2.75 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f7e27bdb-2d3b-4645-ba9c-8deaa6a22f17")
@@ -64,59 +64,20 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
+	(fp_rect
 		(start -6 -5)
-		(end 6 -5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "a3534938-aef5-4230-a44d-02087cc2a83a")
-	)
-	(fp_line
-		(start -6 2)
-		(end -6 -5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "24856be3-6009-4aee-9c33-4575639bde10")
-	)
-	(fp_line
-		(start -6 5)
-		(end -6 4)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "84383230-9944-4b75-b0da-89ec3bc3b719")
-	)
-	(fp_line
-		(start 6 -5)
 		(end 6 5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
+		(fill none)
 		(layer "F.SilkS")
-		(uuid "2f0f57be-91c6-4c4d-b6a2-0b7bb0a27269")
-	)
-	(fp_line
-		(start 6 5)
-		(end -6 5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "9c343b1e-53b5-4bf3-ab4e-b24de25ef95e")
+		(uuid "1026d31a-457c-4832-a4e3-006236f58713")
 	)
 	(fp_circle
-		(center -6 3)
-		(end -5.492 3)
+		(center -3.81 5.75)
+		(end -3.56 5.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -124,6 +85,17 @@
 		(fill solid)
 		(layer "F.SilkS")
 		(uuid "5d87ad75-c31f-4116-b66c-7fb93062f97a")
+	)
+	(fp_rect
+		(start -6.25 -5.25)
+		(end 6.25 5.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fc3dfae3-f3dd-4a2b-989f-e8d6bb12aeaf")
 	)
 	(fp_rect
 		(start -5.08 3.302)

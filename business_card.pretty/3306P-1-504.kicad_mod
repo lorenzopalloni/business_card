@@ -1,0 +1,168 @@
+(footprint "3306P-1-504"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "770813ed-d45f-4d36-b266-502f26418fc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "3306P-1-504"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "27b2259d-587a-457d-932c-47ff739ef319")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "3306P-1-504"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b50f878c-2c59-47ad-ab67-6b4d37358917")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.it/datasheet/2/54/3306-776934.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cb35ed0-7987-4fd7-8012-3e3d539d58a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "6 mm Round Trimpot® Trimming Potentiometer"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "089b87c7-97ea-425b-bec4-f1664670baa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.405 -3.4)
+		(end -3.405 4.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "30d703cb-05ef-417f-8cab-1cb2fe655f1f")
+	)
+	(fp_line
+		(start -3.405 -3.4)
+		(end 3.405 -3.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "88b89af8-7379-47dd-a729-81f8725d766f")
+	)
+	(fp_line
+		(start -3.405 4.7)
+		(end 3.405 4.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "105847d1-5a4a-49c3-85e9-2c4f403811e1")
+	)
+	(fp_line
+		(start 3.405 -3.4)
+		(end 3.405 4.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a588094-c195-4893-8509-3aafa2638596")
+	)
+	(fp_rect
+		(start -3.75 -3.75)
+		(end 3.75 5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f4d483ce-f563-4a18-9b78-3f0db4f5420d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8d630239-325c-4531-9bc3-b6259c8cf81f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e61ce057-3029-41cd-b02e-29a1247a3c58")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.5)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fa47a538-bd79-4c8d-9061-7b7657fc2caa")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 0)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42e6e5f0-b7fd-4299-9bda-ad5b6b91471c")
+	)
+	(model "${KIPRJMOD}/3D-models/3306P-1-504.STEP"
+		(offset
+			(xyz 0 1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

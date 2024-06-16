@@ -1,0 +1,139 @@
+(footprint "DS01-254-S-01BE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DIP SWITCH")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ad9e3aa6-ae4b-4936-9dcd-94049be016ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DS01-254-S-01BE"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b873bdf6-d79a-40f2-b85e-617aa06fd167")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "DS01-254-S-01BE"
+		(at 0 3.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b2348ce-434b-4d15-82df-b0a527c33146")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.it/datasheet/2/670/ds01_254-1777712.pdf"
+		(at 0 3.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a82aa6a-fc36-4894-86b1-4a95ab3d9f98")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 3.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f97e71e-b0ea-46d8-915a-23b14e3b3631")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.98 -4.95)
+		(end 1.98 4.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "98f00c7e-cdb8-4f40-bb8e-39d1a244550e")
+	)
+	(fp_circle
+		(center 0 6)
+		(end 0.25 6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "83ee4d72-650c-4704-99fd-8773b6d7ec54")
+	)
+	(fp_rect
+		(start -2.23 -5.2)
+		(end 2.23 5.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3c4e5484-016e-4376-b34c-fb282ece6bac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.51 -0.19 0)
+		(layer "F.Fab")
+		(uuid "7b158577-0cb8-49da-a741-4f90e4362442")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 3.81)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1f04409-527d-4a43-a09a-268f1f7bc58a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -3.81)
+		(size 1.575 1.575)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fb112d9f-68fa-446c-95a8-6405fdf9cd5d")
+	)
+	(model "${KIPRJMOD}/3D-models/DS01-254-S-01BE.STEP"
+		(offset
+			(xyz 2.62 0.01 1.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
