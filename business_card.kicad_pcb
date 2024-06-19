@@ -3199,219 +3199,6 @@
 			)
 		)
 	)
-	(footprint "business_card:BAT-HLD-001-THM"
-		(layer "F.Cu")
-		(uuid "8a6127cb-0eda-4fc0-acbf-61110cf13897")
-		(at 119.125 115 -90)
-		(property "Reference" "BT1"
-			(at -8.5 -7 -90)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "e4f713c7-72b8-493f-8e02-b972dc9a2d22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "BAT-HLD-001-THM"
-			(at 0 1 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "4f321f41-bc2f-4bc5-a542-82a9100b0d43")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "business_card:BAT-HLD-001-THM"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5dc24bda-453d-4b0f-a200-2618039d1354")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.it/datasheet/2/418/9/ENG_CD_C_BAT_HLD_001_THM_pp_A-3247749.pdf"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5551671d-3f53-43cd-a427-e16ac5cbd1e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e04bad42-b8f0-4738-83ab-9852a79b9de4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/c0f5bfdd-780e-4672-b47e-649089a7aa3a")
-		(sheetname "Root")
-		(sheetfile "business_card.kicad_sch")
-		(attr through_hole)
-		(fp_line
-			(start -10.55 5.95)
-			(end 10.55 5.95)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "bc896ffd-a46b-4760-ae8f-f9a70efaffd8")
-		)
-		(fp_line
-			(start -10.55 4.5)
-			(end -10.55 5.95)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "a49e1f4c-9ee5-41fb-be40-55554109ce1f")
-		)
-		(fp_line
-			(start 10.55 4.5)
-			(end 10.55 5.95)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "9afbf5c6-e4b5-413a-a263-94cea51a7e5c")
-		)
-		(fp_line
-			(start -10.55 -5.95)
-			(end -10.55 -1.5)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "fec96ad3-c3b5-4868-bb2a-ec4e560511bb")
-		)
-		(fp_line
-			(start -10.55 -5.95)
-			(end 10.55 -5.95)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "e479262e-4285-4d4f-941d-4bfbc5238ea0")
-		)
-		(fp_line
-			(start 10.55 -5.95)
-			(end 10.55 -1.5)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "1b460429-9277-4758-a88b-6a95c7cec10e")
-		)
-		(fp_rect
-			(start -11.75 -6.25)
-			(end 11.75 8.5)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "0bf11288-4558-4305-9037-ef231af83204")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "1b19ba14-d616-4a7c-9171-fd162051855c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at -10.55 -0.15 270)
-			(size 1.8 1.8)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "+3V0")
-			(pinfunction "+")
-			(pintype "passive")
-			(uuid "6f13b007-2f5f-4430-8991-a6411f7c46a7")
-		)
-		(pad "2" thru_hole circle
-			(at -10.55 2.95 270)
-			(size 1.8 1.8)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "+3V0")
-			(pinfunction "-")
-			(pintype "passive")
-			(uuid "b62a10c8-134f-4ff8-a760-294de9b7e0b7")
-		)
-		(pad "3" thru_hole circle
-			(at 10.55 -0.15 270)
-			(size 1.8 1.8)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "+3V0")
-			(uuid "0185dc19-54e1-457a-af64-691449500575")
-		)
-		(pad "4" thru_hole circle
-			(at 10.55 2.95 270)
-			(size 1.8 1.8)
-			(drill 1)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 4 "+3V0")
-			(uuid "fc858e3f-173c-435d-ab34-b9255c0d8bb8")
-		)
-		(pad "5" smd circle
-			(at 0 0 270)
-			(size 10 10)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 2 "GND")
-			(uuid "231cf95b-6bb1-47c2-b101-706b45d55e7a")
-		)
-		(model "${KIPRJMOD}/3D-models/BAT-HLD-001-THM.STEP"
-			(offset
-				(xyz 0 -1.5 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
-			)
-		)
-	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8cb6bbe8-a945-4626-8251-fbcdc6f0c7b8")
@@ -3684,6 +3471,219 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "business_card:BAT-HLD-001-THM"
+		(layer "F.Cu")
+		(uuid "b099694b-7077-4ffb-b5cf-3b4ef67e4a42")
+		(at 120.2 114.95 -90)
+		(property "Reference" "BT1"
+			(at -8.5 -7 -90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "abd21d05-d0a9-4aba-8e55-6aeebcf75129")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "BAT-HLD-001-THM"
+			(at 0 1 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "70a8cf6c-2e8d-4733-9d85-ec463d70a4ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "business_card:BAT-HLD-001-THM"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "885da126-098b-45fe-b909-2d245c5f237a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/418/9/ENG_CD_C_BAT_HLD_001_THM_pp_A-3247749.pdf"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8eac9e6-6913-4440-9ac6-c7e736bbde7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a585703-f531-4eca-999c-26415e25bb28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c0f5bfdd-780e-4672-b47e-649089a7aa3a")
+		(sheetname "Root")
+		(sheetfile "business_card.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.55 5.95)
+			(end 10.55 5.95)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "0b90ce17-244a-4373-a747-e1cce74dbad0")
+		)
+		(fp_line
+			(start -10.55 4.5)
+			(end -10.55 5.95)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "6ec7f8f2-b562-4ea6-92c4-6987a90626ce")
+		)
+		(fp_line
+			(start 10.55 4.5)
+			(end 10.55 5.95)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "2f7dfb47-41cf-404c-8d18-8395067254ad")
+		)
+		(fp_line
+			(start -10.55 -5.95)
+			(end -10.55 -1.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "afd69bbc-4ca5-43cc-85ba-e141a3789c0c")
+		)
+		(fp_line
+			(start -10.55 -5.95)
+			(end 10.55 -5.95)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d92be137-eb84-47d3-bd4d-93dd59508c22")
+		)
+		(fp_line
+			(start 10.55 -5.95)
+			(end 10.55 -1.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "bc26f909-f3d0-45cb-8dcb-7dd7dc343390")
+		)
+		(fp_rect
+			(start -11.75 -6.25)
+			(end 11.75 8.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bde85c34-7be0-4f62-9bee-2542ba996eec")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5b9cfe98-40da-4321-81bd-c2dc3ed6679c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -10.55 -0.15 270)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "+3V0")
+			(pinfunction "+")
+			(pintype "passive")
+			(uuid "7c7445f1-f3c9-469f-aaab-bd4328aaf831")
+		)
+		(pad "2" thru_hole circle
+			(at -10.55 2.95 270)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "+3V0")
+			(pinfunction "-")
+			(pintype "passive")
+			(uuid "7addf624-afec-433d-b782-f55210ed5979")
+		)
+		(pad "3" thru_hole circle
+			(at 10.55 -0.15 270)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "+3V0")
+			(uuid "26f6cce7-b6a0-437b-a314-c6d587cec6b6")
+		)
+		(pad "4" thru_hole circle
+			(at 10.55 2.95 270)
+			(size 1.8 1.8)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "+3V0")
+			(uuid "74f89597-4a99-41d0-abeb-d73955e847c5")
+		)
+		(pad "5" smd circle
+			(at 0 0 270)
+			(size 10 10)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "GND")
+			(uuid "68ba315c-eb80-41e2-ac29-7287bae1aa90")
+		)
+		(model "${KIPRJMOD}/3D-models/BAT-HLD-001-THM.STEP"
+			(offset
+				(xyz 0 -1.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)

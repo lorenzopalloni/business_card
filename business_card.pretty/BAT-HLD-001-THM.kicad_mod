@@ -35,11 +35,7 @@
 		(uuid "e3cb3137-56bb-4a4e-b50b-89adf49ddf23")
 		(effects
 			(font
-<<<<<<< Updated upstream
-				(size 1.27 1.27)
-=======
 				(size 1 1)
->>>>>>> Stashed changes
 				(thickness 0.15)
 			)
 		)
@@ -52,11 +48,7 @@
 		(uuid "973eed83-d21a-4eb1-bd6d-b80fead319f5")
 		(effects
 			(font
-<<<<<<< Updated upstream
-				(size 1.27 1.27)
-=======
 				(size 1 1)
->>>>>>> Stashed changes
 				(thickness 0.15)
 			)
 		)
@@ -69,11 +61,7 @@
 		(uuid "75c5335b-b963-4575-8219-ad4b9e37b3bb")
 		(effects
 			(font
-<<<<<<< Updated upstream
-				(size 1.27 1.27)
-=======
 				(size 1 1)
->>>>>>> Stashed changes
 				(thickness 0.15)
 			)
 		)
