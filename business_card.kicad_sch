@@ -3903,7 +3903,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "business_card:DS01-254-S-01BE"
+		(property "Footprint" "business_card:DS01254S01BE"
 			(at 100.33 106.68 0)
 			(effects
 				(font
