@@ -20,8 +20,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "BT1"
+				(at -7.62 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -29,8 +29,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+			(property "Value" "BAT-HLD-001-THM"
+				(at -22.86 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,7 +38,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "business_card:BAT-HLD-001-THM"
 				(at 0 1.524 90)
 				(effects
 					(font
@@ -148,9 +148,9 @@
 			)
 			(symbol "Battery_Cell_1_1"
 				(pin passive line
-					(at 0 5.08 270)
+					(at 0 -2.54 90)
 					(length 2.54)
-					(name "+"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -166,9 +166,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
+					(at 0 5.08 270)
 					(length 2.54)
-					(name "-"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1165,7 +1165,7 @@
 						(type none)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name ""
@@ -1183,7 +1183,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name ""
@@ -2655,7 +2655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "business_card:2N3904"
 			(at 119.38 123.825 0)
 			(effects
 				(font
@@ -3464,7 +3464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.it/datasheet/2/418/9/ENG_CD_C_BAT_HLD_001_THM_pp_A-3247749.pdf"
+		(property "Datasheet" "~"
 			(at 100.33 117.856 90)
 			(effects
 				(font
@@ -3903,7 +3903,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "business_card:DS01254S01BE"
+		(property "Footprint" "business_card:DS01-254-S-01BE"
 			(at 100.33 106.68 0)
 			(effects
 				(font
