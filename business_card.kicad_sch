@@ -8,8 +8,8 @@
 		(title "Business_Card")
 		(date "2024-05-30")
 		(rev "v01")
-		(comment 2 "creativecommons.org/licenses/by/4.0/")
-		(comment 3 "License: CC BY 4.0")
+		(comment 2 "https://opensource.org/license/mit")
+		(comment 3 "License: MIT")
 		(comment 4 "Author: Lorenzo Palloni")
 	)
 	(lib_symbols
