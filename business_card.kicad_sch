@@ -13,178 +13,6 @@
 		(comment 4 "Author: Lorenzo Palloni")
 	)
 	(lib_symbols
-		(symbol "Device:Battery_Cell"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT1"
-				(at -7.62 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BAT-HLD-001-THM"
-				(at -22.86 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "business_card:BAT-HLD-001-THM"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Polarized_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1081,6 +909,159 @@
 				)
 			)
 		)
+		(symbol "business_card:BAT-HLD-001-THM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at -5.334 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAT-HLD-001-THM"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "business_card:BAT-HLD-001-THM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.it/datasheet/2/418/9/ENG_CD_C_BAT_HLD_001_THM_pp_A-3247749.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT-HLD-001-THM_0_0"
+				(pin passive line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "+3V0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "+3V0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "+3V0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "+3V0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BAT-HLD-001-THM_1_1"
+				(rectangle
+					(start -6.35 5.334)
+					(end 7.366 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "business_card:DS01-254-S-01BE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1634,6 +1615,18 @@
 		(uuid "22868f05-918f-4040-8128-db6e15e6d3b4")
 	)
 	(junction
+		(at 96.52 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dd732cd-2289-46b5-9d9a-8e4972afd2df")
+	)
+	(junction
+		(at 96.52 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61502a90-f62b-4aef-9f80-0c1d72fa41e7")
+	)
+	(junction
 		(at 130.81 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1650,6 +1643,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8033f1a3-d5bd-4bcf-b4ae-77e07a3c7d8c")
+	)
+	(junction
+		(at 96.52 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84341ced-c99f-42f9-8bb8-4de2d8fd5e60")
 	)
 	(junction
 		(at 195.58 97.79)
@@ -1697,6 +1696,26 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 120.65) (xy 96.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b0548c-50a5-4a6f-818d-3da02e7fc827")
+	)
+	(wire
+		(pts
+			(xy 92.71 125.73) (xy 96.52 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1047765d-0eb3-4e59-8136-9d54b73327ab")
+	)
+	(wire
+		(pts
 			(xy 125.73 88.9) (xy 173.99 88.9)
 		)
 		(stroke
@@ -1704,16 +1723,6 @@
 			(type default)
 		)
 		(uuid "13c2be04-d9a2-4a26-912a-6371e5378563")
-	)
-	(wire
-		(pts
-			(xy 100.33 111.76) (xy 100.33 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eb223bd-8889-4c7b-938d-8caec5a818b7")
 	)
 	(wire
 		(pts
@@ -1744,6 +1753,16 @@
 			(type default)
 		)
 		(uuid "2553b5f3-47cd-492f-9dcf-be0d87b5c5bb")
+	)
+	(wire
+		(pts
+			(xy 92.71 123.19) (xy 96.52 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27be0c45-db11-4e19-a0eb-6f2816ddb303")
 	)
 	(wire
 		(pts
@@ -1787,13 +1806,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 121.92) (xy 100.33 124.46)
+			(xy 96.52 118.11) (xy 96.52 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c8ec3d4-52c9-4eea-a5d0-622205cd468f")
+		(uuid "495d3dcf-2711-4e69-983a-a271f2a553e2")
 	)
 	(wire
 		(pts
@@ -1837,6 +1856,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 123.19) (xy 96.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e617d41-2dd2-41fa-8d46-f35de165405e")
+	)
+	(wire
+		(pts
+			(xy 96.52 120.65) (xy 96.52 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750b69a4-9b61-4aa4-9867-b4a399a3bfda")
+	)
+	(wire
+		(pts
 			(xy 116.84 127) (xy 116.84 129.54)
 		)
 		(stroke
@@ -1877,6 +1916,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 121.92) (xy 66.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c12d23e-5e5d-4e08-bfc2-f7f1b079ff7b")
+	)
+	(wire
+		(pts
 			(xy 143.51 114.3) (xy 143.51 116.84)
 		)
 		(stroke
@@ -1884,6 +1933,16 @@
 			(type default)
 		)
 		(uuid "9411a4f5-fc7b-42a3-9b15-e17ba65a0c99")
+	)
+	(wire
+		(pts
+			(xy 92.71 118.11) (xy 96.52 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0d6c1e-43ef-4088-ae3d-de03c07e99e7")
 	)
 	(wire
 		(pts
@@ -1907,13 +1966,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 99.06) (xy 100.33 101.6)
+			(xy 96.52 125.73) (xy 96.52 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5b6635c-9744-4834-8c9a-b86cc5f26b50")
+		(uuid "acbe7186-95d7-4625-9424-dba6f94629fd")
 	)
 	(wire
 		(pts
@@ -2067,6 +2126,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 96.52) (xy 96.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddca14fd-84c1-440e-9d9a-ef0bf3120e55")
+	)
+	(wire
+		(pts
 			(xy 195.58 97.79) (xy 199.39 97.79)
 		)
 		(stroke
@@ -2107,6 +2176,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 121.92) (xy 66.04 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0d22b8-9ffc-48d7-880a-14b33bdab71b")
+	)
+	(wire
+		(pts
 			(xy 109.22 115.57) (xy 109.22 121.92)
 		)
 		(stroke
@@ -2128,8 +2207,8 @@
 		(uuid 1df9df3f-ea97-419a-acc3-a38c76404b20)
 	)
 	(rectangle
-		(start 73.66 87.63)
-		(end 105.41 129.54)
+		(start 60.96 86.36)
+		(end 101.6 138.43)
 		(stroke
 			(width 0)
 			(type default)
@@ -2141,7 +2220,7 @@
 	)
 	(text "Business Card"
 		(exclude_from_sim no)
-		(at 236.22 26.67 0)
+		(at 237.49 25.4 0)
 		(effects
 			(font
 				(size 8 8)
@@ -2151,9 +2230,9 @@
 		)
 		(uuid "00209ae0-e71c-4014-9ccc-86f5719c32ae")
 	)
-	(text "CR2032 Battery 3V0"
+	(text "CR2032 Battery +3V0"
 		(exclude_from_sim no)
-		(at 85.09 90.17 0)
+		(at 72.39 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2360,6 +2439,82 @@
 		)
 	)
 	(symbol
+		(lib_id "business_card:BAT-HLD-001-THM")
+		(at 82.55 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c5cc343-b2e5-45f7-9d51-5a64c5a5b053")
+		(property "Reference" "BT1"
+			(at 83.185 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT-HLD-001-THM"
+			(at 83.185 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "business_card:BAT-HLD-001-THM"
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.it/datasheet/2/418/9/ENG_CD_C_BAT_HLD_001_THM_pp_A-3247749.pdf"
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e08f4df2-8309-4882-b4da-ddae95be9774")
+		)
+		(pin "1"
+			(uuid "d42c2f81-e9cb-4c19-aaa2-14bb1bd0a389")
+		)
+		(pin "2"
+			(uuid "79c1fd9e-5229-4131-b423-c4448531f4be")
+		)
+		(pin "4"
+			(uuid "317cd2a6-5ac0-4c3a-a20e-23683d33b9fd")
+		)
+		(pin "5"
+			(uuid "be119451-2f8a-44e8-a863-cb41aa136e2c")
+		)
+		(instances
+			(project ""
+				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 195.58 97.79 0)
 		(unit 1)
@@ -2428,7 +2583,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 100.33 99.06 0)
+		(at 96.52 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2436,7 +2591,7 @@
 		(dnp no)
 		(uuid "41df2499-15ef-45a9-be9e-ce7cc8329bea")
 		(property "Reference" "#PWR08"
-			(at 100.33 102.87 0)
+			(at 96.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2600,7 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 100.33 95.25 0)
+			(at 96.52 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 99.06 0)
+			(at 96.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 99.06 0)
+			(at 96.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 100.33 99.06 0)
+			(at 96.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2649,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 100.33 124.46 0)
+		(at 66.04 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2503,7 +2658,7 @@
 		(fields_autoplaced yes)
 		(uuid "443dce97-3069-49fb-8d1c-1ed69ef68224")
 		(property "Reference" "#PWR09"
-			(at 100.33 130.81 0)
+			(at 66.04 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 129.54 0)
+			(at 66.04 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 124.46 0)
+			(at 66.04 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 124.46 0)
+			(at 66.04 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +2694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 124.46 0)
+			(at 66.04 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,75 +3584,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 100.33 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0f5bfdd-780e-4672-b47e-649089a7aa3a")
-		(property "Reference" "BT1"
-			(at 92.71 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT-HLD-001-THM"
-			(at 77.47 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "business_card:BAT-HLD-001-THM"
-			(at 100.33 117.856 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 117.856 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 100.33 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "913af729-7450-4a5c-be49-aebd3750191d")
-		)
-		(pin "1"
-			(uuid "802bde68-36a3-4d1e-9311-dcfa21c04352")
-		)
-		(instances
-			(project "business_card"
-				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V0")
 		(at 124.46 139.7 0)
 		(unit 1)
@@ -3878,7 +3964,7 @@
 	)
 	(symbol
 		(lib_id "business_card:DS01-254-S-01BE")
-		(at 100.33 106.68 90)
+		(at 96.52 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3886,7 +3972,7 @@
 		(dnp no)
 		(uuid "efc097d2-cfdf-4f9d-a90a-bff4a9940e85")
 		(property "Reference" "SW1"
-			(at 93.98 105.41 90)
+			(at 90.17 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +3981,7 @@
 			)
 		)
 		(property "Value" "DS01-254-S-01BE"
-			(at 78.74 107.95 90)
+			(at 74.93 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +3990,7 @@
 			)
 		)
 		(property "Footprint" "business_card:DS01-254-S-01BE"
-			(at 100.33 106.68 0)
+			(at 96.52 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +3999,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.it/datasheet/2/670/ds01_254-1777712.pdf"
-			(at 100.33 106.68 0)
+			(at 96.52 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4008,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 106.68 0)
+			(at 96.52 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
