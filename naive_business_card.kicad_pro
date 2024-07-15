@@ -463,7 +463,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "business_card.kicad_pro",
+    "filename": "naive_business_card.kicad_pro",
     "version": 1
   },
   "net_settings": {

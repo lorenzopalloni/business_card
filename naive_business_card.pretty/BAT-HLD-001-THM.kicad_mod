@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "business_card:BAT-HLD-001-THM"
+	(property "Footprint" "naive_business_card:BAT-HLD-001-THM"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

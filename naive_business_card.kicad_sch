@@ -909,7 +909,7 @@
 				)
 			)
 		)
-		(symbol "business_card:BAT-HLD-001-THM"
+		(symbol "naive_business_card:BAT-HLD-001-THM"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -929,7 +929,7 @@
 					)
 				)
 			)
-			(property "Footprint" "business_card:BAT-HLD-001-THM"
+			(property "Footprint" "naive_business_card:BAT-HLD-001-THM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1062,7 +1062,7 @@
 				)
 			)
 		)
-		(symbol "business_card:DS01-254-S-01BE"
+		(symbol "naive_business_card:DS01-254-S-01BE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1082,7 +1082,7 @@
 					)
 				)
 			)
-			(property "Footprint" "business_card:DS01254S01BE"
+			(property "Footprint" "naive_business_card:DS01254S01BE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1184,7 +1184,7 @@
 				)
 			)
 		)
-		(symbol "business_card:TLC555IP"
+		(symbol "naive_business_card:TLC555IP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2362,7 +2362,7 @@
 			(uuid "cf043702-06cf-4e00-94b9-fa10e2523728")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "#PWR01")
 					(unit 1)
@@ -2430,7 +2430,7 @@
 			(uuid "baf81372-b721-4f70-bd90-e531096d699d")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "#PWR06")
 					(unit 1)
@@ -2439,7 +2439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "business_card:BAT-HLD-001-THM")
+		(lib_id "naive_business_card:BAT-HLD-001-THM")
 		(at 82.55 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2463,7 +2463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "business_card:BAT-HLD-001-THM"
+		(property "Footprint" "naive_business_card:BAT-HLD-001-THM"
 			(at 82.55 121.92 0)
 			(effects
 				(font
@@ -2573,7 +2573,7 @@
 			(uuid "682f1749-79fe-4e58-a713-51352b1e5c0b")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "#FLG01")
 					(unit 1)
@@ -2638,7 +2638,7 @@
 			(uuid "c5dc7660-5711-4d08-819a-96d79c7b6ea6")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "#PWR08")
 					(unit 1)
@@ -2706,7 +2706,7 @@
 			(uuid "8f998f46-8025-4072-b83b-9453afa43827")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "#PWR09")
 					(unit 1)
@@ -2775,7 +2775,7 @@
 			(uuid "253ef15a-50f9-4271-bce0-207f0c5fca8e")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "R4")
 					(unit 1)
@@ -2810,7 +2810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "business_card:2N3904"
+		(property "Footprint" "naive_business_card:2N3904"
 			(at 119.38 123.825 0)
 			(effects
 				(font
@@ -2886,7 +2886,7 @@
 			(uuid "21be7119-a295-4065-b855-2b1dc65f05f8")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "Q1")
 					(unit 1)
@@ -2955,7 +2955,7 @@
 			(uuid "5f75e5d0-248f-483c-9a13-bad147292d2c")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "C2")
 					(unit 1)
@@ -2964,7 +2964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "business_card:TLC555IP")
+		(lib_id "naive_business_card:TLC555IP")
 		(at 146.05 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2988,7 +2988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "business_card:TLC555IP"
+		(property "Footprint" "naive_business_card:TLC555IP"
 			(at 146.05 101.6 0)
 			(effects
 				(font
@@ -3076,7 +3076,7 @@
 			(uuid "6c73c1cd-f246-4141-ac04-dde57fd4b11e")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "U1")
 					(unit 1)
@@ -3145,7 +3145,7 @@
 			(uuid "3321ea95-4343-40b8-aaf9-34941341f7f1")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "R5")
 					(unit 1)
@@ -3232,7 +3232,7 @@
 			(uuid "00c96820-5ac7-4fc7-854b-756b7ca4c239")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "R2")
 					(unit 1)
@@ -3300,7 +3300,7 @@
 			(uuid "3e148689-1d07-4c83-8be7-20c41ad8ba82")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "#PWR04")
 					(unit 1)
@@ -3369,7 +3369,7 @@
 			(uuid "b46fcd6d-aed6-4ac1-939c-8e9ca231e683")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "R1")
 					(unit 1)
@@ -3437,7 +3437,7 @@
 			(uuid "fca99625-30d6-4119-9c48-7cece85c67b4")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "#PWR07")
 					(unit 1)
@@ -3506,7 +3506,7 @@
 			(uuid "53e7783a-fa8f-4dcb-b1cc-1c5d7931e305")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "C1")
 					(unit 1)
@@ -3575,7 +3575,7 @@
 			(uuid "01b4680a-5dc1-4b4b-9dba-f5a941380dea")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "R3")
 					(unit 1)
@@ -3640,7 +3640,7 @@
 			(uuid "f06d6245-7134-4a4f-b10e-352ce4e7f380")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "#PWR02")
 					(unit 1)
@@ -3708,7 +3708,7 @@
 			(uuid "fc09ddde-79b6-4c02-933e-bf05bfe65a3e")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "#PWR05")
 					(unit 1)
@@ -3777,7 +3777,7 @@
 			(uuid "326fea1d-edea-417c-9b42-4263b935f4a1")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "D1")
 					(unit 1)
@@ -3812,7 +3812,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "business_card:3306P-1-504"
+		(property "Footprint" "naive_business_card:3306P-1-504"
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -3885,7 +3885,7 @@
 			(uuid "53f31a0f-1dc7-401b-bcb7-ca51b0c219ee")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "RV1")
 					(unit 1)
@@ -3954,7 +3954,7 @@
 			(uuid "b109d8ea-83e2-4962-8562-ff0f094cb25b")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "D2")
 					(unit 1)
@@ -3963,7 +3963,7 @@
 		)
 	)
 	(symbol
-		(lib_id "business_card:DS01-254-S-01BE")
+		(lib_id "naive_business_card:DS01-254-S-01BE")
 		(at 96.52 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3989,7 +3989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "business_card:DS01-254-S-01BE"
+		(property "Footprint" "naive_business_card:DS01-254-S-01BE"
 			(at 96.52 105.41 0)
 			(effects
 				(font
@@ -4023,7 +4023,7 @@
 			(uuid "af55e67a-0a8e-4dd6-a2cc-7071bdc82000")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "SW1")
 					(unit 1)
@@ -4088,7 +4088,7 @@
 			(uuid "d68f1c12-ef82-4c00-8fe6-ad1182c64acf")
 		)
 		(instances
-			(project "business_card"
+			(project "naive_business_card"
 				(path "/b84feb65-b9c7-4def-9ca7-9e4ec7b305d8"
 					(reference "#PWR03")
 					(unit 1)

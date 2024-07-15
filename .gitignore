@@ -1,5 +1,6 @@
-/log
-/*.lck
+log/
+!log/2024_07_15/naive_business_card_demo.mp4
+*.lck
 
 # Created by https://www.toptal.com/developers/gitignore/api/kicad
 # Edit at https://www.toptal.com/developers/gitignore?templates=kicad
