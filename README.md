@@ -3,6 +3,8 @@ In my journey of learning Electronics and PCB design, and with the philosophy "f
 
 I used KiCad 8.0.
 
+https://github.com/user-attachments/assets/3243e91c-fb37-439d-8b24-2ccace285e78
+
 ## Demo
 <video controls src="log/2024_07_15/naive_business_card_demo_compressed.mp4" title="Demo: Naive Business Card"></video>
 
