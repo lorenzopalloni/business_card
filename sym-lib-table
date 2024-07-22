@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "naive_business_card")(type "KiCad")(uri "${KIPRJMOD}/naive_business_card.kicad_sym")(options "")(descr ""))
+  (lib (name "naive-business-card")(type "KiCad")(uri "${KIPRJMOD}/naive-business-card.kicad_sym")(options "")(descr ""))
 )

@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "naive_business_card:BAT-HLD-001-THM"
+		(property "Footprint" "naive-business-card:BAT-HLD-001-THM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -175,7 +175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "naive_business_card:DS01254S01BE"
+		(property "Footprint" "naive-business-card:DS01254S01BE"
 			(at 0 0 0)
 			(effects
 				(font

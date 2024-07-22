@@ -6,7 +6,7 @@ I used KiCad 8.0.
 https://github.com/user-attachments/assets/3243e91c-fb37-439d-8b24-2ccace285e78
 
 ## Demo
-<video controls src="log/2024_07_15/naive_business_card_demo_compressed.mp4" title="Demo: Naive Business Card"></video>
+<video controls src="log/2024_07_15/naive-business-card_demo_compressed.mp4" title="Demo: Naive Business Card"></video>
 
 ## Acknowledgement
 Among others, I want to thank Shawn Hymel, Philip Salmony (Phil's Lab), and Charles Platt, from whom I have learnt a ton.
